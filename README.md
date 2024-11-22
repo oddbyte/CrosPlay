@@ -30,7 +30,10 @@ How to get LTSC without enterprise on chromeos to get free extended updates for 
 7. Press `ESC + REFRESH + POWER` to boot into the recovery USB
 8. Allow it to reset your chromebook.
 
-And thats it! Allow it to update the chromebook, log into your account, and you now are on the LTSC!
+And thats it! Allow it to update the chromebook, log into your account, and you now are running LTSC!
+
+![image](https://github.com/user-attachments/assets/a91a6e45-daee-499a-8afa-c1ebbfa9e55b)
+
 
 ### What is the difference between LTSC and their "extended updates" program?
 After Chromebooks stop getting updates, they will give you the option to sign up for the "extended updates" program. This will give you a few more years of updates, at the cost of no more android apps. LTSC gives you all the updates, without needing to sacrifice the Android intergration.
