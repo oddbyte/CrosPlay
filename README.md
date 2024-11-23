@@ -1,10 +1,9 @@
-# LTSC Chromebook
-How to get LTSC without enterprise on Chromebooks to get free extended updates for your Chromebook without giving up the android integration
+# CrosPlay
+Simple tutorial on how to keep google play apps with extended updates
 
 ### Requirements:
 - 1 working brain
 - 1 working chromebook
-- 1 non-linux computer (you can use the chromebook)
 - 1 USB flash drive (8gb or more)
 
 ### Doing the bug
@@ -21,19 +20,15 @@ How to get LTSC without enterprise on Chromebooks to get free extended updates f
 
 ![image](https://github.com/user-attachments/assets/04cde5dd-134c-430a-b50d-e04646961f10)
 
-4. Open Advanced Settings and select the Long Term Support Canadate (does not actually check for enterprise)
-
-![image](https://github.com/user-attachments/assets/ed9a051b-e5aa-4335-938a-f5e505d60490)
-
-5. Press `Create Now`
-6. After it finishes, close the utility and eject the USB. Plug the USB into the chromebook.
+4. Press `Create Now`
+5. After it finishes, close the utility and eject the USB. Plug the USB into the chromebook.
+6. Enable [Developer Mode](https://www.androidauthority.com/how-to-enable-developer-mode-on-a-chromebook-906688/)
 7. Press `ESC + REFRESH + POWER` to boot into the recovery USB
 8. Allow it to reset your chromebook.
+### You must NOT restarrt your chromebook outside the OOBE after this!
+9. Start your chromebook and let it update
+10. Log into your chromebook using a google account
+11. Install [Pollen](https://github.com/MercuryWorkshop/Pollen), and use the RootFS setup to make this permanent
+12. Reboot your chromebook.
 
-And thats it! Allow it to update the chromebook, log into your account, and you now are running LTSC!
-
-![image](https://github.com/user-attachments/assets/a91a6e45-daee-499a-8afa-c1ebbfa9e55b)
-
-
-### What is the difference between LTSC and their "extended updates" program?
-After Chromebooks stop getting updates, they will give you the option to sign up for the "extended updates" program. This will give you a few more years of updates, at the cost of no more android apps. LTSC gives you all the updates, without needing to sacrifice the Android intergration.
+# You can now enable extended updates and keep the play store!
